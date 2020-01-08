@@ -1,22 +1,6 @@
-# scikit-image: Image processing in Python
-[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABPklEQVR42m3SyyqFURTA8Y2BER0TDyExZ+aSPIKUlPIITFzKeQWXwhBlQrmFgUzMMFLKZeguBu5y+//17dP3nc5vuPdee6299gohUYYaDGOyyACq4JmQVoFujOMR77hNfOAGM+hBOQqB9TjHD36xhAa04RCuuXeKOvwHVWIKL9jCK2bRiV284QgL8MwEjAneeo9VNOEaBhzALGtoRy02cIcWhE34jj5YxgW+E5Z4iTPkMYpPLCNY3hdOYEfNbKYdmNngZ1jyEzw7h7AIb3fRTQ95OAZ6yQpGYHMMtOTgouktYwxuXsHgWLLl+4x++Kx1FJrjLTagA77bTPvYgw1rRqY56e+w7GNYsqX6JfPwi7aR+Y5SA+BXtKIRfkfJAYgj14tpOF6+I46c4/cAM3UhM3JxyKsxiOIhH0IO6SH/A1Kb1WBeUjbkAAAAAElFTkSuQmCC)](https://forum.image.sc/tags/scikit-image)
-[![Stackoverflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](https://stackoverflow.com/questions/tagged/scikit-image)
-[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://skimage.zulipchat.com)
-[![codecov.io](https://codecov.io/github/scikit-image/scikit-image/coverage.svg?branch=master)](https://codecov.io/github/scikit-image/scikit-image?branch=master)
+# scikit-image-experiments : unstable sandbox for testing new ideas
 
-- **Website (including documentation):** [https://scikit-image.org/](https://scikit-image.org)
-- **Mailing list:** [https://mail.python.org/mailman/listinfo/scikit-image](https://mail.python.org/mailman/listinfo/scikit-image)
-- **Source:** [https://github.com/scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)
-- **Benchmarks:** [https://pandas.pydata.org/speed/scikit-image/](https://pandas.pydata.org/speed/scikit-image/)
-
-## Installation from binaries
-
-- **Debian/Ubuntu:** ``sudo apt-get install python-skimage``
-- **OSX:** ``pip install scikit-image``
-- **Anaconda:** ``conda install -c conda-forge scikit-image``
-- **Windows:** Download [Windows binaries](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-image)
-
-Also see [installing ``scikit-image``](INSTALL.rst).
+This is NOT the [scikit-image repo](https://github.com/scikit-image/scikit-image) but a fork, intented to test ideas about new technologies (numba, pyopencl, etc.).
 
 ## Installation from source
 
@@ -26,7 +10,7 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-Then, install scikit-image using:
+Then, install using:
 
 ```
 $ pip install .
